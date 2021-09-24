@@ -1,7 +1,7 @@
 import { Switch, Route, Link } from "react-router-dom";
 import { Layout, Typography, Space } from "antd";
-import "./App.css";
 import { NavBar,Exchanges,HomePage,News,CryptoDetails,Cryptocurrencies } from "./components";
+import "./App.css";
 function App() {
   return (
     <div className="app">
