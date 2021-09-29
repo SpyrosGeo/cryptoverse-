@@ -22,16 +22,16 @@ const NavBar = () => {
         {/* <Button className="menu-control-conmtainer"></Button> */}
         <Menu theme="dark">
             <Menu.Item icon={<HomeOutlined/>}>
-                <Link to="/">Home</Link>
+                <Link to="/"></Link>
             </Menu.Item>
             <Menu.Item icon={<FundOutlined/>}>
-                <Link to="/cryptocurrencies">Cryptocurrencies</Link>
+                <Link to="/cryptocurrencies"></Link>
             </Menu.Item>
             <Menu.Item icon={<MoneyCollectOutlined/>}>
-                <Link to="/exchanges">Exchanges</Link>
+                <Link to="/exchanges"></Link>
             </Menu.Item>
             <Menu.Item icon={<BulbOutlined/>}>
-                <Link to="/news">News</Link>
+                <Link to="/news"></Link>
             </Menu.Item>
         </Menu>
       </div>

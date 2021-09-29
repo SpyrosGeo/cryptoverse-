@@ -1,7 +1,16 @@
 import { Switch, Route, Link } from "react-router-dom";
 import { Layout, Typography, Space } from "antd";
-import { NavBar,Exchanges,HomePage,News,CryptoDetails,Cryptocurrencies } from "./components";
+import {
+  NavBar,
+  Exchanges,
+  HomePage,
+  News,
+  CryptoDetails,
+  Cryptocurrencies,
+} from "./components";
 import "./App.css";
+
+
 function App() {
   return (
     <div className="app">
@@ -30,8 +39,18 @@ function App() {
             </Switch>
           </div>
         </Layout>
+        <div className="footer" >
+          <Typography.Text level={5} style={{color:'white',textAlign:'center'}}>
+            Cryptoverse <br/>
+            All rights reserved
+          </Typography.Text>
+          <Space>
+            <Link to="/">Home</Link>News
+            <Link to="/exchanges">Exchanges</Link>News
+            <Link to="/news">News</Link>News
+          </Space>
+        </div>
       </div>
-      <div className="footer"></div>
     </div>
   );
 }
